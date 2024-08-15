@@ -38,7 +38,7 @@ React 학습 레포지토리
 
 ### TypeScript 환경설정
 <details>
-<summary>React 환경설정</summary>
+<summary>TypeScript 환경설정</summary>
 <div markdown="1">
 
 1. 프로젝트 폴더 생성, 타입스크립트 적용
