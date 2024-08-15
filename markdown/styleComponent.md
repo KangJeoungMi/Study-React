@@ -6,6 +6,7 @@
 2. 확장 컴포넌트
 3. as
 4. attrs
+5. Theme(다크모드, 라이트모드)
 ---
 
 - styleComponent 패키지 설치
@@ -371,7 +372,6 @@ const Input = styled.input.attrs({
   border: 2px solid #ccc;
   border-radius: 4px;
 `;
-
 ```
 장점
 1. `기본값 설정`: 컴포넌트에 기본 속성을 설정하여, 반복적인 속성 설정을 피할 수 있습니다.
@@ -381,3 +381,61 @@ const Input = styled.input.attrs({
 |`attrs`|`as`|
 |-------|----|
 |컴포넌트의 속성을 설정하거나 추가할 때 사용됩니다. 주로 HTML 속성이나 이벤트 핸들러를 정의하는 데 유용|컴포넌트를 다른 HTML 요소나 컴포넌트로 변환할 때 사용됩니다. 컴포넌트의 렌더링 결과를 변경하는 데 사용|
+
+---
+
+5. Theme(다크모드, 라이트모드)
+> 전체 애플리케이션의 스타일을 다크모드와 화이트 모드로 전환할 수 있다.
+> `ThemeProvider`활용
+
+`index.js`
+```javascript
+import ReactDOM from "react-dom/client";
+import { ThemeProvider } from "styled-components";
+import App from "./App";
+
+const darkTheme = {
+  textColor: "whitesmoke",
+  backgroundColor: "#111"
+};
+
+const whiteTheme = {
+  textColor: "#111",
+  backgroundColor: "whitesmoke"
+};
+
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement
+);
+root.render(
+  <React.StrictMode>
+    <ThemeProvider>
+      <App />
+    <ThemeProvider/>
+  </React.StrictMode>
+);
+```
+`App.js`
+```javascript
+const Title =  styled.h1`
+  color: ${(props) => props.theme.textColor};
+`;
+
+const Wrapper = styled.div`
+  display: flex;
+  height:100vh;
+  width:100vw;
+  justify-content:center;
+  align-items: center;
+  background-color: ${(props) => props.theme.backgroundColor};
+`;
+function App() {
+  return (
+ <Wrapper>
+      <Title>Hello</Title>
+  </Wrapper>
+  );
+};
+```
+
+![SC03_png](/markdown/image/SC_3.png)
