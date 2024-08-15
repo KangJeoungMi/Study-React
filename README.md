@@ -58,14 +58,6 @@ npx create-react-app [폴더명] --template typescript
   ]
  
 ```
-3. Prettier 설치(코드 규칙 정해서 포매팅 해주는 도구)
-```bash
-# 설치 시 디렉토리 위치 조심
-$ npm install prettier --save-dev
-
-# 현재 디렉토리에 코드 생성 (터미널로 입력 안 해도 무관)
-$ code .prettierrc
-```
 
 </div>
 </details>
