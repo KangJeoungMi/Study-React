@@ -66,4 +66,12 @@ $ npm i styled-components
 
 ### [Style Component](https://github.com/KangJeoungMi/Study-React/blob/master/markdown/styleComponent.md)
 
+## 목차
+> 0. styleComponent 패키지 설치
+> 1. Props(Properties)
+> 2. 확장 컴포넌트
+> 3. `as`
+> 4. `attrs`, `&:`, `${}`
+> 5. Theme(다크모드, 라이트모드)
+
 
