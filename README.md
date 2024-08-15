@@ -43,7 +43,9 @@ React 학습 레포지토리
 
 1. 프로젝트 폴더 생성, 타입스크립트 적용
 ```bash
-npx create-react-app [폴더명] --template typescript
+$ npx create-react-app [폴더명] --template typescript
+$ npm i --save-dev @types/styled-components
+$ npm i styled-components
 ```
 2. tsconfig.json 수정
 ```bash

@@ -1,25 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import Circle from './Circle';
+// Props Types 는 prop이 거기에 있는지 없는지 확인해주지만, 코드를 실행 한 "후"에만 확인이 가능하다.
+// typeScript
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Circle />
     </div>
+     
   );
 }
 
