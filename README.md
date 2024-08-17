@@ -32,7 +32,6 @@ React 학습 레포지토리
     ```
     - http://localhost:3000 웹브라우저 서버 확인
 지 등등 입력
-
 </div>
 </details>
 
@@ -60,13 +59,11 @@ $ npm i styled-components
   ]
  
 ```
-
 </div>
 </details>
 
 ### [Style Component](https://github.com/KangJeoungMi/Study-React/blob/master/markdown/styleComponent.md)
 
-## 목차
 > 0. styleComponent 패키지 설치
 > 1. Props(Properties)
 > 2. 확장 컴포넌트
