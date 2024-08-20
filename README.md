@@ -71,4 +71,6 @@ $ npm i styled-components
 > 4. `attrs`, `&:`, `${}`
 > 5. Theme(다크모드, 라이트모드)
 
+### [TypeScript](https://github.com/KangJeoungMi/Study-React/blob/master/markdown/TypeScript.md)
+
 
