@@ -70,7 +70,15 @@ $ npm i styled-components
 > 3. `as`
 > 4. `attrs`, `&:`, `${}`
 > 5. Theme(다크모드, 라이트모드)
-
+---
 ### [TypeScript](https://github.com/KangJeoungMi/Study-React/blob/master/markdown/TypeScript.md)
+> 1. `TypeScript`란
+> - ‼️Tip‼️ 설치 방법
+> 2. 타입정의
+> 3. React Props 타입 정의
+> 4. Theme(다크모드, 라이트모드)
+---
+### [install React-Router-Dom](https://www.npmjs.com/package/react-router-dom?activeTab=readme)
+> $ npm i react-router-dom
 
-
+![ReacRouterDom.png](/markdown/image/ReacRouterDom.png)
