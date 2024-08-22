@@ -73,7 +73,8 @@ $ npm i styled-components
 ---
 ### [TypeScript](https://github.com/KangJeoungMi/Study-React/blob/master/markdown/TypeScript.md)
 > 1. `TypeScript`란
-> - ‼️Tip‼️ 설치 방법
+
+ ‼️Tip‼️ 설치 방법
 > 2. 타입정의
 > 3. React Props 타입 정의
 > 4. Theme(다크모드, 라이트모드)
