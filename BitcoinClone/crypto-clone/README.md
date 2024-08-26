@@ -6,7 +6,8 @@
 5. > $ npm i react-query
 
 ### 경로
+
 |경로|설명|예시|
-|---|---||
+|---|---|---|
 |/|All coins||
-|/:id|BitCoin(btc) => Coin Detail|/btc/information, btc/chart|
+|/:id|BitCoin(btc) => Coin Detail|`/btc/information`, `btc/chart`|
