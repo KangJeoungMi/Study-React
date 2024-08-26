@@ -1,15 +1,16 @@
-import styled from 'styled-components';
+import { Outlet } from 'react-router-dom';
 import './App.css';
+import Header from './components/Header';
 // Props Types 는 prop이 거기에 있는지 없는지 확인해주지만, 코드를 실행 한 "후"에만 확인이 가능하다.
 // typeScript
 
-const Container = styled.div`
-  background-color: ${(props)=> props.theme.bgColor};
-`;
+// const Container = styled.div`
+//   background-color: ${(props)=> props.theme.bgColor};
+// `;
 
-const H1 = styled.h1`
-  color: ${(props)=> props.theme.textColor};
-`;
+// const H1 = styled.h1`
+//   color: ${(props)=> props.theme.textColor};
+// `;
 
 function App() {
   // const [value, setvalue]= useState("");
@@ -32,9 +33,11 @@ function App() {
         <input value={value} onChange={onChange} type="text" placeholder='username' />
         <button>Log in</button>
       </form> */}
-      <Container>
+      {/* <Container>
         <H1>Hello</H1>
-      </Container>
+      </Container> */}
+      <Header/>
+      <Outlet/>
     </div>
   );
 }

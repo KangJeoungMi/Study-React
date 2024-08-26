@@ -79,7 +79,10 @@ $ npm i styled-components
 > 3. React Props 타입 정의
 > 4. Theme(다크모드, 라이트모드)
 ---
-### [install React-Router-Dom](https://www.npmjs.com/package/react-router-dom?activeTab=readme)
-> $ npm i react-router-dom
+### [ReactRouterDom](https://github.com/KangJeoungMi/Study-React/blob/master/markdown/ReactRouterDom.md)
+
+> [install React-Router-Dom](https://www.npmjs.com/package/react-router-dom?activeTab=readme)
+
+` $ npm i react-router-dom `
 
 ![ReacRouterDom.png](/markdown/image/ReacRouterDom.png)
