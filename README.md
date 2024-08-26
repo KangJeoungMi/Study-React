@@ -83,6 +83,12 @@ $ npm i styled-components
 
 > [install React-Router-Dom](https://www.npmjs.com/package/react-router-dom?activeTab=readme)
 
-` $ npm i react-router-dom `
+` $ npm i react-router-dom@6.4 `
 
 ![ReacRouterDom.png](/markdown/image/ReacRouterDom.png)
+
+1. `ReactRouter`란
+2. `BrouserRouter`, `createBrowserRouter`
+3. `errorElement`, `useNavigate`, `useParams`
+4. `Outlet`, `useOutletContext`
+---
