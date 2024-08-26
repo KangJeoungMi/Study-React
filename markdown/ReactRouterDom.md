@@ -70,7 +70,7 @@ export default Router;
 
 ### **`createBrowserRouter`**
 > - `React`에서 사용하는 `React Router` 라이브러리의 기능 중하나로, 브라우저 히스토리를 사용하는 라우터를 생성하는데 사용
-> - `React Router`는 **SPA(Single Page Application)**에서 클라이언트 사이드 라우팅을 쉽게 구현할 수 있도록 돕는 라이브러리이다.
+> - `React Router`는 `SPA(Single Page Application)`에서 클라이언트 사이드 라우팅을 쉽게 구현할 수 있도록 돕는 라이브러리이다.
 > - **React Router v6**부터 라우터 설정이 간편해 졌으며 객체의 배열을 받아 브라우저 기반의 라우터를 생성한다.
 
 [Router.tsx]
