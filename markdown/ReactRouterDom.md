@@ -69,9 +69,9 @@ export default Router;
 ![RRD_1](/markdown/image/RRD_2.png)
 
 ### **`createBrowserRouter`**
-> ✎ `React`에서 사용하는 `React Router` 라이브러리의 기능 중하나로, 브라우저 히스토리를 사용하는 라우터를 생성하는데 사용
-> ✎ `React Router`는 **SPA(Single Page Application)**에서 클라이언트 사이드 라우팅을 쉽게 구현할 수 있도록 돕는 라이브러리이다.
-> ✎ **React Router v6**부터 라우터 설정이 간편해 졌으며 객체의 배열을 받아 브라우저 기반의 라우터를 생성한다.
+> - `React`에서 사용하는 `React Router` 라이브러리의 기능 중하나로, 브라우저 히스토리를 사용하는 라우터를 생성하는데 사용
+> - `React Router`는 **SPA(Single Page Application)**에서 클라이언트 사이드 라우팅을 쉽게 구현할 수 있도록 돕는 라이브러리이다.
+> - **React Router v6**부터 라우터 설정이 간편해 졌으며 객체의 배열을 받아 브라우저 기반의 라우터를 생성한다.
 
 [Router.tsx]
 ```javascript
@@ -153,7 +153,7 @@ root.render(
 
 ## 3. `errorElement`, `useNavigate`, `useParams`
 ### `errorElement`
-> ✎ 특정 경로에서 오류가 발생 했을 때 사용자에게 오류를 보여 주기 위함
+> - 특정 경로에서 오류가 발생 했을 때 사용자에게 오류를 보여 주기 위함
 [component/ErrorComponent.tsx]
 ```javascript
 function ErrorComponent(){
@@ -212,8 +212,8 @@ export default router;
 ![RRD_3.png](./image/RRD_3.png)
 
 ### `useNavigate`
-> ✎ `HOOK`의 한종류로, 프로그램 방식으로 경로를 변경할 수 있게 해준다
-> ✎ 예를들어 버튼을 클릭하거나 어떤 조건이 충족되었을 때 특정 페이지로 이동해야 하는 경우 사용한다
+> - `HOOK`의 한종류로, 프로그램 방식으로 경로를 변경할 수 있게 해준다
+> - 예를들어 버튼을 클릭하거나 어떤 조건이 충족되었을 때 특정 페이지로 이동해야 하는 경우 사용한다
 ```javascript
 import { Link, useNavigate } from "react-router-dom";
 
@@ -251,8 +251,8 @@ navigate 함수 사용법
 ![RRD_4.png](./image/RRD_4.png)
 
 ### `useParams`
-> ✎ `HOOK`의 한종류로, 현재 URL의 동적 세그먼트(즉, 경로 매개변수)에 접근할 수 있게 해준다
-> ✎ 이를 통해 URL에 포함된 변수 값을 쉽게 가져온다
+> - `HOOK`의 한종류로, 현재 URL의 동적 세그먼트(즉, 경로 매개변수)에 접근할 수 있게 해준다
+> - 이를 통해 URL에 포함된 변수 값을 쉽게 가져온다
 
 [db.ts]
 ```javascript
