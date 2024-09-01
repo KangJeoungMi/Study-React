@@ -1,16 +1,16 @@
 ## TodoList
 
-### 목표
+### 📌 목표
 - 리액트와 부트스트랩을 이용하여 CRUD기능이 있는 투두리스트 앱 구현
-
-### 사용기술
+---
+### 📌 사용기술
 - useState, useRef, useCallback 등의 리액트 훅 사용
-
-### 기능 설명
+---
+### 📌 기능 설명
 - 기능 설명은 코드에 주석을 달아 자세히 적어둠
 ![result](./img/result.gif)
-
-> 항목 추가, 삭제
+---
+### ⚙️ 설정
 ![result.mp4](./img/todo.png)
 
 ```javascript
@@ -24,6 +24,8 @@
 ```
 ---
 
+### 🔎 리액트에서 부트스트랩 사용방법
+
 [리액트 부트스트랩 설치](https://react-bootstrap.github.io)
 
 > $ npm install react-boostrap bootstrap
@@ -31,7 +33,7 @@
 
 ---
 
-### 참고자료
+### 📒 참고자료
 1. [Hooks_useCallback](https://velog.io/@hjthgus777/React-%EB%8B%A4%EC%8B%9C-%ED%95%9C%EB%B2%88-useCallback%EC%9D%84-%ED%8C%8C%ED%97%A4%EC%B3%90%EB%B3%B4%EC%9E%90)
 
 2. [map](https://velog.io/@wooyong99/React-map-%EC%82%AC%EC%9A%A9%EB%B2%95)
