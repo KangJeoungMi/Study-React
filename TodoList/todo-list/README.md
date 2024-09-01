@@ -14,5 +14,4 @@
 ```
 ---
 
-<img src='../todo-list/img/result.gif' width='400px'>
 
