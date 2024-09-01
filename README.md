@@ -95,5 +95,5 @@ $ npm i styled-components
 
 ### 투두리스트 만들기
 
-<img src='../todo-list/img/result.gif' width='400px'>
+<img src='./TodoList/todo-list/img/result.gif' width='400px'>
 
