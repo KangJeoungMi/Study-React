@@ -1,3 +1,4 @@
+// 부트스트랩 적용 컴포넌트
 import { Card, Container } from "react-bootstrap";
 
 const TodoTemplate = ({children}) => {
