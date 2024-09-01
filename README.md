@@ -93,7 +93,7 @@ $ npm i styled-components
 4. `Outlet`, `useOutletContext`
 ---
 
-### 투두리스트 만들기
+### [투두리스트 만들기](https://github.com/KangJeoungMi/Study-React/tree/master/TodoList/todo-list#readme)
 
 <img src='./TodoList/todo-list/img/result.gif' width='400px'>
 
